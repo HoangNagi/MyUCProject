@@ -1,0 +1,7 @@
+﻿@model College
+Name: @Model.Name
+<h1>Student List</h1>
+@foreach (var s in Model.Students)
+{
+    <li>@s.Name</li>
+}
